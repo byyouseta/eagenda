@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/', function () {
     return view('admin/admin');
 });
+
+Route::get('/home', 'AdminController@home');
+Route::get('/pegawai', 'AdminController@pegawai');
+Route::get('/agenda', 'AdminController@agenda');

@@ -61,7 +61,7 @@ desired effect
   <header class="main-header">
 
     <!-- Logo -->
-    <a href="index2.html" class="logo">
+    <a href="/" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>A</b>LT</span>
       <!-- logo for regular state and mobile devices -->
@@ -71,18 +71,16 @@ desired effect
     </a>
 
     <!-- Header Navbar -->
-    @include('admin/header')
+    @include('header')
   </header>
   <!-- Left side column. contains the logo and sidebar -->
-    @include('admin/sidebar')
+    @include('sidebar')
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
-      <h1>
-        Page Header
-        <small>Optional description</small>
+      <h1>@yield('judul_halaman')
       </h1>
       <!-- Tidak dipakai
       <ol class="breadcrumb">
@@ -98,14 +96,14 @@ desired effect
       <!--------------------------
         | Your Page Content Here |
         -------------------------->
-
+        @yield('konten')
     </section>
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
 
   <!-- Main Footer -->
-  @include('admin/footer')
+  @include('footer')
   <!-- Control Sidebar -->
   <!-- Tidak dipakai
   <aside class="control-sidebar control-sidebar-dark">

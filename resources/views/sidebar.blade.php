@@ -36,9 +36,9 @@
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN MENU</li>
         <!-- Optionally, you can add icons to the links -->
-        <li class="active"><a href="#"><i class="fa fa-home"></i> <span>Home</span></a></li>
-        <li><a href="#"><i class="fa fa-user"></i> <span>Pegawai</span></a></li>
-        <li><a href="#"><i class="fa fa-book"></i> <span>Agenda</span></a></li>
+        <li class="active"><a href="/home"><i class="fa fa-home"></i> <span>Home</span></a></li>
+        <li><a href="/pegawai"><i class="fa fa-user"></i> <span>Pegawai</span></a></li>
+        <li><a href="/agenda"><i class="fa fa-book"></i> <span>Agenda</span></a></li>
         <!-- Tidak pakai multi level dropdown
         <li class="treeview">
           <a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>
