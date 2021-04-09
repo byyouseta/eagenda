@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 */
 Route::get('/', function () {
-    return view('admin/admin');
+    return view('admin');
 });
 
 Route::get('/home', 'AdminController@home');

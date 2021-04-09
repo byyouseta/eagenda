@@ -10,6 +10,100 @@
 <!-- cara penulisan isi section yang panjang -->
 @section('konten')
 
-	<p>Berisi daftar pegawai yang bisa dimasukkan untuk diundang meeting</p>
+<div class="row">
+	<div class="col-xs-12">
+		<div class="box">
+		<div class="box-header">
+		<div class="btn-group">
+                      <button type="button" class="btn btn-primary btn-sm"><i class="fa fa-plus-circle"></i> Tambah</button>
+                    </div>
+			
+
+			<div class="box-tools">
+			<div class="input-group input-group-sm" style="width: 150px;">
+				<input type="text" name="table_search" class="form-control pull-right" placeholder="Search">
+
+				<div class="input-group-btn">
+				<button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+				</div>
+			</div>
+			</div>
+		</div>
+		<!-- /.box-header -->
+		<div class="box-body table-responsive no-padding">
+			<table class="table table-hover">
+			<tr>
+				<th>No</th>
+				<th>NIP</th>
+				<th>Nama Pegawai</th>
+				<th>Alamat</th>
+				<th>Unit</th>
+				<th>No Handphone</th>
+				<th>Action</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>192206242040121001</td>
+				<td>Bayu S</td>
+				<td>Sragen</td>
+				<td>IT</td>
+				<td>085647290xxx</td>
+				<th>
+					<div class="btn-group">
+						<button type="button" class="btn btn-warning btn-sm"><i class="fa fa-edit"></i></button>
+						<button type="button" class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
+                    </div>
+				</th>
+			</tr>
+			<tr>
+			<td>2</td>
+				<td>192206242040121001</td>
+				<td>Bayu S</td>
+				<td>Sragen</td>
+				<td>IT</td>
+				<td>085647290xxx</td>
+				<th>
+					<div class="btn-group">
+						<button type="button" class="btn btn-warning btn-sm"><i class="fa fa-edit"></i></button>
+						<button type="button" class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
+                    </div>
+				</th>
+			</tr>
+			<tr>
+			<td>3</td>
+				<td>192206242040121001</td>
+				<td>Bayu S</td>
+				<td>Sragen</td>
+				<td>IT</td>
+				<td>085647290xxx</td>
+				<th>
+					<div class="btn-group">
+						<button type="button" class="btn btn-warning btn-sm"><i class="fa fa-edit"></i></button>
+						<button type="button" class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
+                    </div>
+				</th>
+			</tr>
+			<tr>
+			<td>4</td>
+				<td>192206242040121001</td>
+				<td>Bayu S</td>
+				<td>Sragen</td>
+				<td>IT</td>
+				<td>085647290xxx</td>
+				<th>
+					<div class="btn-group">
+						<button type="button" class="btn btn-warning btn-sm"><i class="fa fa-edit"></i></button>
+						<button type="button" class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
+                    </div>
+				</th>
+			</tr>
+			</table>
+		</div>
+		<!-- /.box-body -->
+		</div>
+		<!-- /.box -->
+	</div>
+</div>
+<!-- /.content -->
 
 @endsection
