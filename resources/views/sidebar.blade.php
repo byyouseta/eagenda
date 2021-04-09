@@ -32,7 +32,7 @@
               </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="/pegawai"><i class="fa fa-puzzle-piece"></i> <span>Unit</span></a></li>
+            <li><a href="/unit"><i class="fa fa-puzzle-piece"></i> <span>Unit</span></a></li>
             <li><a href="/pegawai"><i class="fa fa-user"></i> <span>Pegawai</span></a></li>
           </ul>
         </li>

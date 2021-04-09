@@ -24,3 +24,4 @@ Route::get('/', function () {
 Route::get('/home', 'AdminController@home');
 Route::get('/pegawai', 'AdminController@pegawai');
 Route::get('/agenda', 'AdminController@agenda');
+Route::get('/unit', 'AdminController@unit');

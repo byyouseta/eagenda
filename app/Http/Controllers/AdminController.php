@@ -18,4 +18,8 @@ class AdminController extends Controller
     public function agenda(){
 		return view('agenda');
 	}
+
+	public function unit(){
+		return view('unit');
+	}
 }
